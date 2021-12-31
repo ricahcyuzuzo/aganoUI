@@ -13,7 +13,7 @@ const Joinus = () => {
             alert('All fields are required')
         }else{
             setLoading(true);
-            const data = await axios.post('http://127.0.0.1:4000/api/member', {
+            const data = await axios.post('https://aganochoirr.herokuapp.com/api/member', {
                 names: names,
                 phone: phone
             });
