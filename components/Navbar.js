@@ -5,6 +5,7 @@ import Menu from '../public/menuu.png';
 import Close from '../public/close.png';
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Navbar = () => {
     const handleOpenNav = () => {
@@ -17,13 +18,13 @@ const Navbar = () => {
     return (
         <>
           <div className={styles.navbar}>
-        <a href='#'><Image src={Agano} width={100} height={70} /></a>
+        <Link href='#'><Image src={Agano} width={100} height={70} /></Link>
         <ul className={styles.navlinks}>
-          <li className={styles.navitem}><a className={styles.links} href='/'>Home</a></li>
-          <li className={styles.navitem}><a className={styles.links} href='/about'>About</a></li>
-          <li className={styles.navitem}><a className={styles.links} href='/songs'>Songs</a></li>
-          <li className={styles.navitem}><a className={styles.links} href='/donate'>Donate</a></li>
-          <li className={styles.navitem}><a className={styles.links} href='/joinus'>Join Us</a></li>
+          <li className={styles.navitem}><Link className={styles.links} href='/'>Home</Link></li>
+          <li className={styles.navitem}><Link className={styles.links} href='/about'>About</Link></li>
+          <li className={styles.navitem}><Link className={styles.links} href='/songs'>Songs</Link></li>
+          <li className={styles.navitem}><Link className={styles.links} href='/donate'>Donate</Link></li>
+          <li className={styles.navitem}><Link className={styles.links} href='/Joinus'>Join Us</Link></li>
 
         </ul>
         <a href='#' onClick={handleOpenNav} className={styles.humberger}><Image src={Menu} width={30} height={30} /></a>
@@ -34,11 +35,11 @@ const Navbar = () => {
         <a href='#' onClick={handleCloseNav}><Image src={Close} width={20} height={20} /></a>
       </div>
         <ul className={styles.navlinkss}>
-          <li className={styles.navitem}><a className={styles.links} href='/'>Home</a></li>
-          <li className={styles.navitem}><a className={styles.links} href='/about'>About</a></li>
-          <li className={styles.navitem}><a className={styles.links} href='/songs'>Songs</a></li>
-          <li className={styles.navitem}><a className={styles.links} href='/donate'>Donate</a></li>
-          <li className={styles.navitem}><a className={styles.links} href='/joinus'>Join Us</a></li>
+          <li className={styles.navitem}><Link className={styles.links} href='/'>Home</Link></li>
+          <li className={styles.navitem}><Link className={styles.links} href='/about'>About</Link></li>
+          <li className={styles.navitem}><Link className={styles.links} href='/songs'>Songs</Link></li>
+          <li className={styles.navitem}><Link className={styles.links} href='/donate'>Donate</Link></li>
+          <li className={styles.navitem}><Link className={styles.links} href='/Joinus'>Join Us</Link></li>
         </ul>
       </div>  
         </>

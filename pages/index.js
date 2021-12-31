@@ -36,7 +36,7 @@ export default function Home() {
             <p className={styles.paragraph}>
               Giving thanks to God through songs is one of the best way to glorify him. Agano chose songs as the best channel for our prayers. 
             </p>
-          <Link href='/joinus'><button className={styles.joinBtn}>Become a Member</button></Link>
+          <Link href='/Joinus'><button className={styles.joinBtn}>Become a Member</button></Link>
           </div>                
       </div>
     </>

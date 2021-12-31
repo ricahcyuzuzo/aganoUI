@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Navbar from '../components/Navbar';
 import styles from '../styles/Home.module.css';
 
-const joinus = () => {
+const Joinus = () => {
     const [names, setNames] = useState('');
     const [phone, setPhone] = useState('');
     const [loading, setLoading] = useState(false)
@@ -54,4 +54,4 @@ const joinus = () => {
     )
 }
 
-export default joinus
+export default Joinus
