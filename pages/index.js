@@ -2,6 +2,7 @@ import react, { useEffect, useRef } from 'react';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/Navbar';
 import Link from 'next/link';
+import Head from 'next/head';
 // import Video from '../public/agano.mp4';
 
 export default function Home() {
@@ -15,6 +16,9 @@ export default function Home() {
 
   return (
     <>
+    <Head>
+      <meta name="google-site-verification" content="TF4qk-ZLX3DxiNbZMZKB9vDj_wt2IlIIfx_q4YqD0Qo" />
+    </Head>
     <Navbar />
       <div className={styles.container}>
         <video 
