@@ -7,6 +7,7 @@ const songs = () => {
         <div>
             <Navbar />
             <h1 className={styles.headerA}>Songs</h1>
+            <p className={styles.paragraphA}>Our songs are comming soon.</p>
         </div>
     )
 }
