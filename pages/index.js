@@ -18,6 +18,7 @@ export default function Home() {
     <>
     <Head>
       <meta name="google-site-verification" content="TF4qk-ZLX3DxiNbZMZKB9vDj_wt2IlIIfx_q4YqD0Qo" />
+      <title>Agano Choir</title>
     </Head>
     <Navbar />
       <div className={styles.container}>
